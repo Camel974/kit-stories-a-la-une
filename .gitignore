@@ -1,0 +1,13 @@
+# Tes fichiers perso ne partent jamais sur GitHub
+mes-donnees/photos/*
+!mes-donnees/photos/LISEZ-MOI.md
+mes-donnees/preuves/*
+!mes-donnees/preuves/LISEZ-MOI.md
+mes-donnees/temoignages/*
+!mes-donnees/temoignages/LISEZ-MOI.md
+mes-donnees/a-publier/
+mes-donnees/plan-a-la-une.md
+skills/stories-a-la-une/fonts/
+__pycache__/
+*.pyc
+.DS_Store

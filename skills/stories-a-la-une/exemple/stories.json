@@ -1,0 +1,49 @@
+{
+  "_lisezmoi": "Exemple de structure : 6 stories « Ma méthode ». Les textes entre crochets sont à remplacer par les VRAIS mots de la marque (jamais inventer une preuve). Classes : sur, titre, txt, v (mot clé en couleur), pill, liste/it/pt (puce), num (numéro), sl (souligné), preuve (big + lab + small), trait, dm.",
+  "marque": {
+    "nom": "[Prénom ou marque]",
+    "couleur": "#7C3AED",
+    "fond": "",
+    "police_titre": "Space Grotesk",
+    "police_texte": "Inter",
+    "majuscules": true
+  },
+  "stories": [
+    {
+      "nom": "01-couverture",
+      "photo": "01.jpg",
+      "dy": 740,
+      "html": "<div class=\"sur\">[Question qui interpelle<br>la cible] ?</div>\n<div class=\"titre\">[Promesse<br>en 3-4 mots]</div>\n<div class=\"txt\">je t'apprends à [résultat 1 avec <span class=\"v\">mots clés</span>],<br>puis à <span class=\"v\">[résultat 2]</span></div>\n<div class=\"preuve\"><span class=\"big\">[100K]</span><span class=\"lab\">[ce que le chiffre mesure]<small>[sur quoi / pour qui]</small></span></div>"
+    },
+    {
+      "nom": "02-je-fais-quoi",
+      "photo": "02.jpg",
+      "dy": 380,
+      "html": "<div class=\"sur\">Concrètement,</div>\n<div class=\"titre\">Je fais<br>quoi ?</div>\n<div class=\"txt\">un seul accompagnement :<br>[étape A en <span class=\"v\">mots clés</span>],<br>puis <span class=\"v\">[étape B]</span><br><span class=\"pill\" style=\"margin-top:22px\">[bénéfice final en une ligne]</span></div>"
+    },
+    {
+      "nom": "03-pour-qui",
+      "photo": "03.jpg",
+      "dy": 870,
+      "html": "<div class=\"titre\" style=\"margin-top:60px\">Pour qui ?</div>\n<div class=\"liste\">\n<div class=\"it\"><span class=\"pt\"></span><span><b class=\"sl\">[Profil 1 : tu as déjà…]</b><br>je t'aide à [<span class=\"v\">a</span>, <span class=\"v\">b</span> et <span class=\"v\">c</span>]</span></div>\n<div class=\"it\"><span class=\"pt\"></span><span><b class=\"sl\">[Profil 2 : tu pars de zéro]</b><br>je t'apprends aussi [<span class=\"v\">x</span>, <span class=\"v\">y</span>]</span></div>\n</div>"
+    },
+    {
+      "nom": "04-etapes",
+      "photo": "04.jpg",
+      "dy": 250,
+      "html": "<div class=\"sur\">Comment je t'aide,</div>\n<div class=\"titre\">3 étapes</div>\n<div class=\"liste\">\n<div class=\"it\"><span class=\"num\">1</span><span>[étape 1 avec <span class=\"v\">mot clé</span>]<br>([détail])</span></div>\n<div class=\"it\"><span class=\"num\">2</span><span>[étape 2 avec <span class=\"v\">mot clé</span>]</span></div>\n<div class=\"it\"><span class=\"num\">3</span><span>[étape 3 avec <span class=\"v\">mot clé</span>]</span></div>\n</div>"
+    },
+    {
+      "nom": "05-objection",
+      "photo": "05.jpg",
+      "dy": 680,
+      "html": "<div class=\"sur\">[Et toi, t'as rien<br>de compliqué à faire,]</div>\n<div class=\"titre\">[Zéro X]</div>\n<div class=\"liste\">\n<div class=\"it\"><span class=\"pt\"></span><span><span class=\"v\">[pas besoin de…]</span></span></div>\n<div class=\"it\"><span class=\"pt\"></span><span>[pas besoin d'être <span class=\"v\">…</span>]</span></div>\n<div class=\"it\"><span class=\"pt\"></span><span>[même si tu pars <span class=\"v\">de zéro</span>,<br>c'est possible]</span></div>\n</div>"
+    },
+    {
+      "nom": "06-dm",
+      "photo": "06.jpg",
+      "dy": 675,
+      "html": "<div class=\"sur\">À la fin,</div>\n<div class=\"titre\" style=\"font-size:112px\">[Résultat<br>final]</div>\n<div class=\"trait\"></div>\n<div class=\"dm\" style=\"margin-top:12px\">DM « [MOT] »</div>\n<div class=\"txt\" style=\"margin-top:20px\">pour que je t'aide à <span class=\"v\">[résultat]</span></div>\n<div class=\"preuve\" style=\"margin-top:40px\"><span class=\"big\">[+300]</span><span class=\"lab\">[ce que le chiffre mesure]<small>[grâce à quoi]</small></span></div>"
+    }
+  ]
+}
